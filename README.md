@@ -58,6 +58,16 @@ pip install -r requirements.txt
 
 ### 4️⃣ Setup environment variables
 Create a `.env` file in the project root:
+#### 🔑 Getting a Groq API Key
+
+To use the Natural Language → SQL generation feature, you need a **Groq API key**.
+
+1. Go to [Groq Cloud](https://console.groq.com/).
+2. Sign up or log in with your account.
+3. Navigate to **API Keys** section from the dashboard.
+4. Click **Create API Key**.
+5. Copy the generated key.
+Paste it in the part shown below.
 
 ```
 GROQ_API_KEY=your_groq_api_key_here
