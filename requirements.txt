@@ -1,0 +1,5 @@
+streamlit==1.26.0
+mysql-connector-python==8.1.0
+pandas==2.1.1
+python-dotenv==1.0.0
+groq==0.1.1   # replace with the actual Groq Python SDK version you are using
